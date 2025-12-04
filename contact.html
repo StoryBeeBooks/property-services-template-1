@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Monarch Property Care</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/translations.js"></script>
+</head>
+<body>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero" style="background-image: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('Image Assets/get in touch hero.jpeg');">
+        <div class="hero-content">
+            <h1 data-i18n="contact.hero.title">Get in Touch</h1>
+            <p data-i18n="contact.hero.subtitle">Ready to transform your property? We're here to help.</p>
+        </div>
+    </section>
+
+    <!-- Contact Container -->
+    <div class="contact-container animate-on-scroll">
+        
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h2 data-i18n="contact.info.title">Contact Information</h2>
+            <p style="margin-bottom: 2rem; color: #666;" data-i18n="contact.info.desc">Have a question or need a quote? Reach out to us using the form or the details below. We aim to respond to all inquiries within 24 hours.</p>
+            
+            <div class="info-item">
+                <div class="info-icon">📞</div>
+                <div>
+                    <h3 data-i18n="contact.phone.title">Phone</h3>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">✉️</div>
+                <div>
+                    <h3 data-i18n="contact.email.title">Email</h3>
+                    <p>info@monarchpropertycare.com</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                    <h3 data-i18n="contact.address.title">Address</h3>
+                    <p>100 King St W, Toronto, ON M5X 1A9</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                    <h3 data-i18n="contact.area.title">Service Area</h3>
+                    <p data-i18n="contact.area.desc">Serving the Greater Toronto Area & Ontario including Toronto, Mississauga, Brampton, Markham, Vaughan, and surrounding regions.</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">⏰</div>
+                <div>
+                    <h3 data-i18n="contact.hours.title">Hours</h3>
+                    <p data-i18n="contact.hours.desc">Mon - Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 4:00 PM<br>Sun: Closed</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+            <h2 data-i18n="contact.form.title">Send Us a Message</h2>
+            <form action="#" method="POST"> <!-- Placeholder action -->
+                <div class="form-group">
+                    <label for="name" data-i18n="contact.form.name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe" data-i18n="contact.form.name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" data-i18n="contact.form.email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com" data-i18n="contact.form.email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" data-i18n="contact.form.phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" data-i18n="contact.form.phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="service" data-i18n="contact.form.service">Service Interested In</label>
+                    <select id="service" name="service">
+                        <option value="" data-i18n="contact.form.select">Select a Service...</option>
+                        <option value="window-cleaning" data-i18n="contact.form.option.window">Window Cleaning</option>
+                        <option value="eavestrough" data-i18n="contact.form.option.eaves">Eavestrough Cleaning</option>
+                        <option value="pressure-washing" data-i18n="contact.form.option.pressure">Pressure Washing</option>
+                        <option value="deck" data-i18n="contact.form.option.deck">Deck Cleaning/Staining</option>
+                        <option value="snow" data-i18n="contact.form.option.snow">Snow Removal</option>
+                        <option value="other" data-i18n="contact.form.option.other">Other / Multiple Services</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" data-i18n="contact.form.message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Tell us about your property and what you need..." data-i18n="contact.form.message"></textarea>
+                </div>
+
+                <button type="submit" class="cta-button" style="width: 100%; border: none; cursor: pointer;" data-i18n="contact.form.submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Next Steps Section -->
+    <section class="next-steps-section animate-on-scroll" style="background-color: var(--light-bg); padding: 4rem 5%; text-align: center;">
+        <div class="section-title">
+            <h2 data-i18n="home.how.title">What Happens Next?</h2>
+        </div>
+        <div style="max-width: 800px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 2rem;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="font-size: 2rem; color: var(--secondary-color); margin-bottom: 1rem;">1</div>
+                <h3 data-i18n="home.how.step1.title">We Review</h3>
+                <p data-i18n="home.how.step1.desc">Our team reviews your request and property details.</p>
+            </div>
+            <div style="flex: 1; min-width: 200px;">
+                <div style="font-size: 2rem; color: var(--secondary-color); margin-bottom: 1rem;">2</div>
+                <h3 data-i18n="home.how.step2.title">We Quote</h3>
+                <p data-i18n="home.how.step2.desc">You'll receive a detailed estimate via email or phone.</p>
+            </div>
+            <div style="flex: 1; min-width: 200px;">
+                <div style="font-size: 2rem; color: var(--secondary-color); margin-bottom: 1rem;">3</div>
+                <h3 data-i18n="home.how.step3.title">We Schedule</h3>
+                <p data-i18n="home.how.step3.desc">Once approved, we book a time that suits you best.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section animate-on-scroll">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.123456789012!2d-79.384090!3d43.648770!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d2a3b4b5c5%3A0x1234567890abcdef!2s100%20King%20St%20W%2C%20Toronto%2C%20ON%20M5X%201A9!5e0!3m2!1sen!2sca!4v1633024800000!5m2!1sen!2sca" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <footer id="footer-placeholder"></footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
