@@ -511,7 +511,7 @@ footer .logo {
 
     .hero {
         height: auto;
-        min-height: 100vh;
+        min-height: 200vh;
         padding: 6rem 20px 2rem;
     }
 }
