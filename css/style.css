@@ -509,10 +509,15 @@ footer .logo {
         width: auto;
     }
 
-    .hero {
+    .hero,
+    .services-hero,
+    .page-hero {
         height: auto;
         min-height: 200vh;
-        padding: 6rem 20px 2rem;
+        padding: 8rem 20px 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
